@@ -12,10 +12,11 @@ body {
 
 nav {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
 }
+
 
 nav a {
   color: white;
@@ -69,3 +70,17 @@ nav a:hover {
       padding: 1.5rem;
       margin-top: 3rem;
     }
+
+    .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  max-height: 60px;
+  height: auto;
+  width: auto;
+}

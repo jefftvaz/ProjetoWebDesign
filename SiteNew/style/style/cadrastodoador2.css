@@ -27,9 +27,9 @@ header .logo {
 
 nav {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 nav a {
@@ -128,4 +128,19 @@ button[type="submit"]:hover {
     flex-direction: column;
     align-items: center;
   }
+}
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  max-height: 60px;
+  height: auto;
+  width: auto;
 }
